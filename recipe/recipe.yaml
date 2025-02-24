@@ -1,6 +1,6 @@
 context:
   name: altair-aitools-runtime
-  version: 1.0b4
+  version: 1.0b5
   python_min: 3.9
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://maven.rapidminer.com/repository/pypi-snapshot/packages/altair-aitools-runtime/${{ version }}/altair_aitools_runtime-${{ version }}.tar.gz
-  sha256: fd92482c431db76fdb5e38929aacd1991ac69c61a6211fde7cb9a49300b5db8c
+  sha256: 58f26e4554610bd0c70ed339defbae66a3887614489cf9e3ee1d82207a8cd363
 
 build:
   number: 0
