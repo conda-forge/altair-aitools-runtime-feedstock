@@ -145,4 +145,3 @@ Feedstock Maintainers
 
 * [@pczako-altair](https://github.com/pczako-altair/)
 * [@skontar-altair](https://github.com/skontar-altair/)
-
