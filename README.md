@@ -32,14 +32,14 @@ Current release info
 Installing altair-aitools-runtime
 =================================
 
-Installing `altair-aitools-runtime` from the `conda-forge/label/altair-aitools-runtime_rc` channel can be achieved by adding `conda-forge/label/altair-aitools-runtime_rc` to your channels with:
+Installing `altair-aitools-runtime` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels conda-forge/label/altair-aitools-runtime_rc
+conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/altair-aitools-runtime_rc` channel has been enabled, `altair-aitools-runtime` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `altair-aitools-runtime` can be installed with `conda`:
 
 ```
 conda install altair-aitools-runtime
@@ -54,26 +54,26 @@ mamba install altair-aitools-runtime
 It is possible to list all of the versions of `altair-aitools-runtime` available on your platform with `conda`:
 
 ```
-conda search altair-aitools-runtime --channel conda-forge/label/altair-aitools-runtime_rc
+conda search altair-aitools-runtime --channel conda-forge
 ```
 
 or with `mamba`:
 
 ```
-mamba search altair-aitools-runtime --channel conda-forge/label/altair-aitools-runtime_rc
+mamba search altair-aitools-runtime --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search altair-aitools-runtime --channel conda-forge/label/altair-aitools-runtime_rc
+mamba repoquery search altair-aitools-runtime --channel conda-forge
 
 # List packages depending on `altair-aitools-runtime`:
-mamba repoquery whoneeds altair-aitools-runtime --channel conda-forge/label/altair-aitools-runtime_rc
+mamba repoquery whoneeds altair-aitools-runtime --channel conda-forge
 
 # List dependencies of `altair-aitools-runtime`:
-mamba repoquery depends altair-aitools-runtime --channel conda-forge/label/altair-aitools-runtime_rc
+mamba repoquery depends altair-aitools-runtime --channel conda-forge
 ```
 
 
@@ -145,3 +145,4 @@ Feedstock Maintainers
 
 * [@pczako-altair](https://github.com/pczako-altair/)
 * [@skontar-altair](https://github.com/skontar-altair/)
+
