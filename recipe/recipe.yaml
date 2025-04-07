@@ -1,6 +1,6 @@
 context:
   name: altair-aitools-runtime
-  version: 1.0b5
+  version: 1.0rc1
   python_min: 3.9
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: 790fbd86d3e6f0a6ca5338fef176b92aef100b3935f15e51b90507de659b2b07
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -24,10 +24,9 @@ requirements:
   run:
   - python >=${{ python_min }}
   - numpy >=1.24
-  - packaging >=24.1,<25
-  - pandas >=2.0.0,<3
-  - pillow >=10.3.0,<11
-  - pydantic >=2.0.0,<3
+  - packaging >=24.1
+  - pandas >=2.0.0
+  - pydantic >=2.0.0
   - rapidminer >=2024.1.0
   - websockets >=12.0,<14
 
