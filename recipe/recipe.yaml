@@ -1,7 +1,7 @@
 context:
   name: altair-aitools-runtime
-  version: 1.1rc2
-  python_min: 3.10.18
+  version: 1.1
+  python_min: 3.10
 
 package:
   name: ${{ name|lower }}
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://maven.rapidminer.com/repository/pypi-snapshot/packages/altair-aitools-runtime/${{ version }}/altair_aitools_runtime-${{ version }}.tar.gz
-  sha256: ce99df399cb70a37fb61b2da4e89f529c2a84c39e297f9f800f15ff77119b413
+  sha256: 4e8cbc77b1e52635352d7f6fb328677fcfbcf7b48d6e7e0b9b7bbb289f7820e2
 
 build:
-  number: 3
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
